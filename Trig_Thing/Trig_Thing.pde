@@ -18,6 +18,6 @@ void draw() {
   ellipse(width/2, height/2, 300, 300);
   //Moon
   fill(152,66,244);
-  ellipse(earthX+ 100*cos(radians(theta)), earthY+ 100*sin(radians(theta)),25,25);
+  ellipse(earthX+ 100*cos(radians(theta*2)), earthY+ 100*sin(radians(theta*2)),25,25);
   theta++;
 }
